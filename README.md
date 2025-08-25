@@ -1,4 +1,4 @@
-# **Project Nautilus**
+# **Social Network Pilot Project**
 
 ## **Project Overview**
 This is a **pilot project** for a social network application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) integrated with **Prisma ORM** for database management.  
