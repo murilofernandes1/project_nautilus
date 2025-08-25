@@ -2,7 +2,11 @@
 
 ## **Project Overview**
 This is a **pilot project** for a social network application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) integrated with **Prisma ORM** for database management.  
-The main goal of this project is to experiment with building a modern, scalable, and efficient social network system that can later be expanded into a full application.  
+The main goal of this project is to experiment with building a modern, scalable, and efficient social network system that can later be expanded into a full application.
+
+---
+
+**Project Status:** At this moment, the project is in its foundation phase. The backend API is currently being finalized.
 
 ---
 
