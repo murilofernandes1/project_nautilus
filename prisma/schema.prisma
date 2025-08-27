@@ -11,4 +11,14 @@ model User {
   email String @unique
   name String @unique
   password String
+  posts     Post[]
+}
+model Post {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  published Boolean  @default(false)
+  content     String   @db.String()
+  authorId String? @db.ObjectId //aqui será guardado o id do usuário
+  author    User?    @relation(fields: [authorId], references: [id]) //e aqui será feita a relaçao entre o usuário e o post, onde o author id referencia o id do usuário
 }
